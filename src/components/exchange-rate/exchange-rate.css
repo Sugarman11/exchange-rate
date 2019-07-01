@@ -1,0 +1,40 @@
+.container {
+    margin-top: 3rem;
+}
+
+.bold {
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+
+.th-row {
+    vertical-align: 0;
+}
+
+.hover:hover{
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.title {
+    font-weight: 400;
+}
+
+
+@media (max-width: 992px) {
+
+    .table td {
+        vertical-align: middle;
+        padding: 1.15rem;
+    }
+
+    .table th {
+        font-size: 2rem
+    }
+
+    .bold {
+        font-weight: 400;
+        font-size: 2.5rem;
+        vertical-align: middle;
+    }
+}
+
